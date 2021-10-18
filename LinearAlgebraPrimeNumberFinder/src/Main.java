@@ -15,8 +15,6 @@ public class Main {
         biggestPrime = biggestPrime.add(new BigInteger("1"));
         System.out.println(biggestPrime.toString());
         System.out.println("Where using the java probability method is a prime? : " + biggestPrime.isProbablePrime(10));
-
-
     }
 
     public static void FindProbablyPrime(int upToNumber) {
