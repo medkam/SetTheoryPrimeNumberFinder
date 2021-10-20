@@ -6,7 +6,7 @@ public class Main {
     static long sysTime = System.currentTimeMillis();
     public static void main(String[] args) {
         // for the second number in the pow
-        FindProbablyPrime((int)Math.pow(2, 22));
+        FindProbablyPrime((int)Math.pow(2, 10));
         BigInteger biggestPrime = new BigInteger("1");
         for (int i = 0; i < primes.size(); i++) {
             System.out.println("#" + i + ": " + primes.get(i));
