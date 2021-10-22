@@ -15,7 +15,7 @@ public class Main {
         System.out.println("So the biggest known prime from this set is:");
         biggestPrime = biggestPrime.add(new BigInteger("1"));
         System.out.println(biggestPrime.toString());
-//        System.out.println("Where using the java probability method is a prime? : " + biggestPrime.isProbablePrime(10));
+        System.out.println("Where using the java probability method is a prime? : " + biggestPrime.isProbablePrime(10));
         System.out.println("Elapsed time: " + (System.currentTimeMillis() - sysTime));
     }
 
@@ -43,7 +43,7 @@ public class Main {
         if (probablyPrime % 2 == 0) return;
         // check all odd numbers
         // (mathemathically checking only primes would be more efficient, however keeping track of and accessing a list of primes makes it less efficient than this)
-        for (int i = 3; i < Math.sqrt(probablyPrime); i += 2) {
+        for (int i = 3; i <= Math.sqrt(probablyPrime); i += 2) {
             if (probablyPrime % i == 0) return;
         }
         // If none of the numbers <= SQRT(probablePrime) divide probablePrime then it is a prime
