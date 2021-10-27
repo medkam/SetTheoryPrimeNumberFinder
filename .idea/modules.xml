@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LinearAlgebraPrimeNumberFinder.iml" filepath="$PROJECT_DIR$/LinearAlgebraPrimeNumberFinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SetTheoryPrimeNumberFinder.iml" filepath="$PROJECT_DIR$/.idea/SetTheoryPrimeNumberFinder.iml" />
     </modules>
   </component>
 </project>
